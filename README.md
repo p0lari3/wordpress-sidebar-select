@@ -22,9 +22,7 @@ Simply put the following PHP in your template wherever you want the sidebar to a
 
 <pre>
 	<code>
-	<?php
 		$sidebar = get_post_meta($post->ID,'_selected-sidebar',true);	
 		dynamic_sidebar($sidebar);	
-	?>
 	</code>
 </pre>
